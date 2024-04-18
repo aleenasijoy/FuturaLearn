@@ -1,0 +1,130 @@
+"""""
+x=1
+y=2.3
+print(type(x))
+print(type(y))
+a=float(x)
+print(a)
+import random
+print(random.randrange(1,10))
+b='   hello,world'
+print(b[2:6])
+print(len(b))
+for i in b:
+    print(i)
+print(b[2:])
+print(b.upper())
+print(b.lower())
+print(b.strip())
+print(b.replace('h','j'))
+print(b.split(','))
+c='hello'
+d=b+" "+c
+print(d)
+print(10>9)
+e=5
+f=6
+print(e is f)
+print(e is not f)
+g=[1,2,3,4,5]
+print(7 in g)
+print(6&3)
+print(6|7)
+print((6+3)-(5+3))
+h=[6,5,3,7,9]
+print(len(h))
+print(type(h))
+print(h[1:3])
+h[1]=8
+print(h)
+h[2:4]=9,4
+print(h)
+h.insert(2,6)
+print(h)
+h.append(3)
+print(h)
+i=[6,8,4,5,3,2,7]
+h.extend(i)
+print(h)
+j=h+i
+print(j)
+h.remove(3)
+print(h)
+h.pop(2)
+print(h)
+h.pop()
+print(h)
+del h[5]
+print(h)
+h.clear()
+print(h)
+del h
+print(h)
+"""
+fruits=["apple","mango","orange","grapes"]
+print(len(fruits))
+fruits.append("kiwi")
+fruits.pop(0)
+print(fruits)
+veg=["tomato","onion"]
+fruits.extend(veg)
+print(fruits)
+fruits.sort(reverse=True)
+print(fruits)
+tuple1=(1,2,3,4,5)
+print(tuple1[0])
+print(len(tuple1))
+k=list(tuple1)
+k[3]=8
+l=tuple(k)
+print(l)
+m=(3,5,1)
+n=m+l
+print(n)
+o={1,2,3,8,5,5,1}
+print(o)
+p=list(o)
+print(p)
+o.add(6)
+print(o)
+q={6,8,0}
+o.update(q)
+print(o)
+o.remove(2)
+print(o)
+o.discard(2)
+o.pop()
+print(o)
+r=o.union(q)
+print(r)
+s=o.intersection(q)
+print(s)
+dict={1:'a',2:'b',3:'c',4:'d'}
+print(dict)
+print(len(dict))
+t=dict[2]
+print(t)
+u=dict.get(3)
+print(u)
+v=dict.keys()
+print(v)
+w=dict.values()
+print(w)
+y=dict.items()
+print(y)
+dict[2]=6
+print(dict)
+dict.update({2:8})
+print(dict)
+dict.update({6:'w'})
+print(dict)
+dict.pop(2)
+print(dict)
+dict.popitem()
+print(dict)
+a=5
+b=7
+if a>b:
+    print("5>7")
+else:
+    print("7>5")
